@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f27d9b7b138e4a81a5e51d7f4084a1e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Enemy/Animations/aim_rifleEnemy.anim
+  uploadId: 708169

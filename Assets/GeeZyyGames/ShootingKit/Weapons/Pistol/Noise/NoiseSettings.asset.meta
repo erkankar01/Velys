@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca1a73c7d15ab440cbb34997e098c8f8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Weapons/Pistol/Noise/NoiseSettings.asset
+  uploadId: 708169

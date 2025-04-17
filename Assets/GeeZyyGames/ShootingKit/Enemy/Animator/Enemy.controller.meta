@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3cc400347dec34468b93fd5c67bded1f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Enemy/Animator/Enemy.controller
+  uploadId: 708169

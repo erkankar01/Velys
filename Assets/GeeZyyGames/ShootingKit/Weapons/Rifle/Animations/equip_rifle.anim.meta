@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58210a21680f44ddd811d0673c6da7d5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Weapons/Rifle/Animations/equip_rifle.anim
+  uploadId: 708169

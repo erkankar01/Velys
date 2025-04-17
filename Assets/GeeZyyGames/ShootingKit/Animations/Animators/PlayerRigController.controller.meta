@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba4e198c261754807be644b6ab6984d1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Animations/Animators/PlayerRigController.controller
+  uploadId: 708169

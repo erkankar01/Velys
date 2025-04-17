@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5248cd573085648939aaad8b2f6db231
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Animations/ThirdPersonAnimations/FreeStyleAnimations/JumpLand.anim
+  uploadId: 708169

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: edef2ea4da0ac4ffe88100421a39e4c8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Skybox/Scene/mainSceneSettings.lighting
+  uploadId: 708169

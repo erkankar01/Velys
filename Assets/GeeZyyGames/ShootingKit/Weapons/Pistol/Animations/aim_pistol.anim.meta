@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0353d5f245694ca9975178857065281
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Weapons/Pistol/Animations/aim_pistol.anim
+  uploadId: 708169

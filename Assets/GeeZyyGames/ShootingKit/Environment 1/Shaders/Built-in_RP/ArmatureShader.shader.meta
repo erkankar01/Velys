@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6d99c6e0a8f8bf44bb8bcb6e5a056d01
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Environment 1/Shaders/Built-in_RP/ArmatureShader.shader
+  uploadId: 708169

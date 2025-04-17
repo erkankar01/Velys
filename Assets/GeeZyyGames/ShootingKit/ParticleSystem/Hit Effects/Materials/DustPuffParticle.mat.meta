@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1402721190994cd46b64bf7cba78f5d8
+timeCreated: 1473672216
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/ParticleSystem/Hit Effects/Materials/DustPuffParticle.mat
+  uploadId: 708169

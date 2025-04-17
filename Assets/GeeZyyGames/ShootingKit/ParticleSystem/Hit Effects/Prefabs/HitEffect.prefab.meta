@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bce6fcb6bea9a449e8cdc1c840a49392
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/ParticleSystem/Hit Effects/Prefabs/HitEffect.prefab
+  uploadId: 708169

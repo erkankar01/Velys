@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9c9de365434454f7390b050d895fde6d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Enemy/Animations/recoil_rifleEnemy.anim
+  uploadId: 708169

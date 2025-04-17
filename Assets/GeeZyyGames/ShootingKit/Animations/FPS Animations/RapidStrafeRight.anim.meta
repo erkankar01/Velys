@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81564dbc6a53d4b22abe6ef38aae472e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Animations/FPS Animations/RapidStrafeRight.anim
+  uploadId: 708169

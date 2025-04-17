@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce1069a25d73f484d871660685c96509
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Weapons/ShotGun/Animations/equip_shotGun.anim
+  uploadId: 708169

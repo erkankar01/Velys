@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f895d3582e8af496c81e1d4e9c420f77
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Materials/WeaponPickup.mat
+  uploadId: 708169

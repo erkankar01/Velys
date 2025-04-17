@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 588b1be432f17436eba4114751ecfe58
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Weapons/ShotGun/Materials/shotGun.001.mat
+  uploadId: 708169

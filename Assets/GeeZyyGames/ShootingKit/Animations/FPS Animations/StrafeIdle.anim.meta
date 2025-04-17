@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 04df7b2b8de5a48b4b4ef2e00e5faac6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Animations/FPS Animations/StrafeIdle.anim
+  uploadId: 708169

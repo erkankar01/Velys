@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 894b61ef4efb64026b05b895f3e7ac3b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Weapons/Pistol/Animations/recoil_pistol.anim
+  uploadId: 708169

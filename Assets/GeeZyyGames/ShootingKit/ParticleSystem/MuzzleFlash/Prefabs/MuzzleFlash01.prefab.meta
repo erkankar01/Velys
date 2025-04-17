@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6e98c437b2c314319b89293b9e7665e5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/ParticleSystem/MuzzleFlash/Prefabs/MuzzleFlash01.prefab
+  uploadId: 708169

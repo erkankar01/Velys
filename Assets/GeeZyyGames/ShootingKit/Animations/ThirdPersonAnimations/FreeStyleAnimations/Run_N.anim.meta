@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b7cf4b6fc61fe40168385f79a3146bcb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Animations/ThirdPersonAnimations/FreeStyleAnimations/Run_N.anim
+  uploadId: 708169

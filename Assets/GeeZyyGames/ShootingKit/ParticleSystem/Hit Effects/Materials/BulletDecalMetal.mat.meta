@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 094e76e620df5714eb3946120657e1f6
+timeCreated: 1473687979
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/ParticleSystem/Hit Effects/Materials/BulletDecalMetal.mat
+  uploadId: 708169

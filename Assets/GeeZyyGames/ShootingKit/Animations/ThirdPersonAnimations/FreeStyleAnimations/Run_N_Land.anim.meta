@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43cd3fd0db7a84562b60cddfc6e9eb64
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297646
+  packageName: Quick Third Person Shooter | Shooting System
+  packageVersion: 1.0
+  assetPath: Assets/GeeZyyGames/ShootingKit/Animations/ThirdPersonAnimations/FreeStyleAnimations/Run_N_Land.anim
+  uploadId: 708169
