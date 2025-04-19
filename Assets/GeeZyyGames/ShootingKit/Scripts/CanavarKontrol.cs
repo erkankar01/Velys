@@ -295,5 +295,22 @@ namespace GeeZyyGames.ShootingKit
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, saldiri_mesafesi);
         }
+
+        public void Oldur()
+        {
+            if (!isDead)
+            {
+                isDead = true;
+                animator.SetTrigger("Death");
+                
+                // Canavar öldüğünde para ekle
+                if (ParaYonetimi.Instance != null)
+                {
+                    ParaYonetimi.Instance.ParaEkle(50);
+                }
+                
+                Destroy(gameObject, 2f);
+            }
+        }
     }
 } 
