@@ -205,6 +205,12 @@ namespace GeeZyyGames.ShootingKit
             animator.SetBool(runHash, false);
             animator.SetTrigger(deathHash);
             
+            // Para ödülünü ekle
+            if (ParaYonetimi.Instance != null)
+            {
+                ParaYonetimi.Instance.ParaEkle(ParaYonetimi.Instance.canavarOldurmeOdulu);
+            }
+
             // Ses efektini çal
             if (olumSesi != null && audioSource != null)
             {
