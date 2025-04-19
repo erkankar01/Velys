@@ -23,6 +23,7 @@ namespace GeeZyyGames.ShootingKit
 
         private int mevcutPara;
         private Color normalRenk;
+        private Animator paraAnimator;
 
         private void Awake()
         {
@@ -91,6 +92,7 @@ namespace GeeZyyGames.ShootingKit
                 }
             }
             
+            // Başlangıç parasını göster
             ParayiGuncelle();
         }
 
@@ -98,12 +100,7 @@ namespace GeeZyyGames.ShootingKit
         {
             mevcutPara += miktar;
             ParayiGuncelle();
-            
-            // Para kazanma efekti
-            if (paraText != null)
-            {
-                StartCoroutine(ParaEfekti());
-            }
+            ParaEfektiOynat();
         }
 
         public bool ParaHarca(int miktar)
@@ -131,19 +128,32 @@ namespace GeeZyyGames.ShootingKit
             }
         }
 
-        private System.Collections.IEnumerator ParaEfekti()
+        private void ParaEfektiOynat()
+        {
+            // Para arttığında efekt
+            if (paraText != null)
+            {
+                // Geçici renk değişimi
+                Color originalColor = paraText.color;
+                paraText.color = Color.yellow;
+
+                // Geçici boyut artışı
+                Vector3 originalScale = paraText.transform.localScale;
+                paraText.transform.localScale = originalScale * 1.2f;
+
+                // 0.2 saniye sonra normale dön
+                Invoke("EfektiSifirla", 0.2f);
+            }
+        }
+
+        private void EfektiSifirla()
         {
             if (paraText != null)
             {
-                // Para kazanıldığında efekt rengi (sarı, yarı saydam)
-                Color efektRenk = new Color(1f, 1f, 0f, uiSaydamlik);
-                paraText.color = efektRenk;
-                paraText.fontSize += 2;
-
-                yield return new WaitForSeconds(0.1f);
-
+                // Normal renge dön
                 paraText.color = normalRenk;
-                paraText.fontSize -= 2;
+                // Normal boyuta dön
+                paraText.transform.localScale = Vector3.one;
             }
         }
     }

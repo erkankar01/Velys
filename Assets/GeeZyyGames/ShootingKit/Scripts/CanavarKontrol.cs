@@ -206,9 +206,15 @@ namespace GeeZyyGames.ShootingKit
             animator.SetTrigger(deathHash);
             
             // Para ödülünü ekle
-            if (ParaYonetimi.Instance != null)
+            ParaYonetimi paraYonetimi = FindObjectOfType<ParaYonetimi>();
+            if (paraYonetimi != null)
             {
-                ParaYonetimi.Instance.ParaEkle(ParaYonetimi.Instance.canavarOldurmeOdulu);
+                paraYonetimi.ParaEkle(50);
+                Debug.Log("Para eklendi: +50"); // Debug için log
+            }
+            else
+            {
+                Debug.LogWarning("ParaYonetimi bulunamadı!"); // Hata durumu için log
             }
 
             // Ses efektini çal
