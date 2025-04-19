@@ -4,9 +4,18 @@ using UnityEngine;
 
 namespace GeeZyyGames
 {
+    public enum SilahTipi
+    {
+        Pistol,
+        Rifle,
+        Sniper,
+        Shotgun
+    }
+
     public class ShootController : MonoBehaviour
     {
         public bool isSniper;
+        public SilahTipi weaponType = SilahTipi.Rifle; // Varsayılan olarak tüfek
 
         [HideInInspector]
         public bool isFiring;
@@ -146,14 +155,19 @@ namespace GeeZyyGames
 
             if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity, layerMask, QueryTriggerInteraction.Ignore))
             {
-                if (hitInfo.collider.gameObject.tag == "Enemy")
+                WeaponController weaponController = GetComponentInParent<WeaponController>();
+                if (weaponController != null)
+                {
+                    weaponController.DealDamageToEnemy(hitInfo);
+                }
+
+                if (hitInfo.collider.CompareTag("Enemy"))
                 {
                     for (int i = 0; i < hitEnemyEffetc.Length; i++)
                     {
                         hitEnemyEffetc[i].transform.position = hitInfo.point;
                         hitEnemyEffetc[i].transform.forward = hitInfo.normal;
                         hitEnemyEffetc[i].Emit(1);
-                        hitInfo.collider.gameObject.GetComponentInParent<EnemyHealth>().TakeDamage(damageAmount);
                     }
                 }
                 else

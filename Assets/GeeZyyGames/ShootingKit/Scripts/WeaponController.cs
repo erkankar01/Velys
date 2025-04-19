@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Animations.Rigging;
 using UnityEngine.Animations;
 using Cinemachine;
+using GeeZyyGames.ShootingKit;
 
 namespace GeeZyyGames
 {
@@ -28,6 +29,8 @@ namespace GeeZyyGames
 
         [HideInInspector]
         public bool weaponActiveBool;
+
+        private int currentWeapon = 0;
 
         private void Start()
         {
@@ -196,6 +199,36 @@ namespace GeeZyyGames
             StartCoroutine(shootController.UpdateTextAfterTime(.5f));
 
             StartCoroutine(weapon.WeaponReload(weapon.weaponReloadTime));
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Tab))
+            {
+                SwitchWeapon();
+            }
+        }
+
+        private void SwitchWeapon()
+        {
+            if (currentWeapon >= 0 && currentWeapon < weapons.Length)
+            {
+                weapons[currentWeapon].gameObject.SetActive(false);
+            }
+
+            currentWeapon = (currentWeapon + 1) % weapons.Length;
+
+            weapons[currentWeapon].gameObject.SetActive(true);
+        }
+
+        public void DealDamageToEnemy(RaycastHit hit)
+        {
+            CanavarKontrol canavar = hit.collider.GetComponent<CanavarKontrol>();
+            if (canavar != null && currentWeapon >= 0 && currentWeapon < weapons.Length)
+            {
+                string silahTipi = weapons[currentWeapon].weaponType.ToString().ToLower();
+                canavar.HasarAl(silahTipi);
+            }
         }
     }
 }
